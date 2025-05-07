@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asifur Rahman | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        header, section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .project, .skill, .achievement {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Asifur Rahman</h1>
+    <p>Aspiring Software Engineer</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I am a recent graduate in Computer Science and Engineering from Mawlana Bhashani Science and Technology University. My goal is to contribute to innovative projects and grow in the IT industry. I enjoy reading books and exploring new places.</p>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project">
+        <strong>Encryption and Decryption System</strong> – RSA Algorithm, C, File Handling
+    </div>
+    <div class="project">
+        <strong>Teacher Helping Tool</strong> – PHP Laravel, MySQL, VS Code
+    </div>
+    <div class="project">
+        <strong>ASP.NET CRUD Application</strong> – ASP.NET, Entity Framework, SQL Server
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skill">Languages: C, C++, C#, PHP (Laravel)</div>
+    <div class="skill">Frameworks: ASP.NET MVC</div>
+    <div class="skill">Databases: MySQL</div>
+    <div class="skill">Concepts: OOP, Data Structures, Algorithms, SOLID Principles</div>
+</section>
+
+<section id="achievements">
+    <h2 class="section-title">Achievements</h2>
+    <div class="achievement">Solved 700+ problems on online judges (Codeforces, Leetcode, etc.)</div>
+    <div class="achievement">Participated in 60+ programming contests</div>
+    <div class="achievement">Certificates in .NET Fundamental and .NET OOP</div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: asifurrahmanakib964@gmail.com</p>
+    <p>Phone: +8801954647137</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/asifur-rahman-30583528b/" target="_blank">linkedin.com/in/asifur-rahman</a></p>
+    <p>GitHub: <a href="https://github.com/Akib1964" target="_blank">github.com/Akib1964</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Asifur Rahman. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
